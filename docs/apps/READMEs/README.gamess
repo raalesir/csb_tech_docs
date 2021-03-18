@@ -1,0 +1,48 @@
+=========================================
+=   For users of GAMESS on csb.       =
+=========================================
+
+
+GAMESS is an old quantum mechanics program developed by Mark Gordon's
+group at Iowa State University and it was the only free option to
+Gaussian for a long time. It's based on the even older fortran HONDO
+routines developed in the 1980's.
+
+A characteristic of ab-initio quantum chemistry packages is that they
+need to solve a big number of two electron repulsion integrals that need
+to be stored in disk. This makes it imperative to reserve a good amount
+of disk space for these calculations. This space is called SCRATCH.
+
+The SCRATCH space for GAMESS resides at:
+
+/state/partition1/$USER
+
+Nonetheless for GAMESS jobs a smaller SCRATCH space is also necessary.
+Therefore users will need to create an scr folder in their local
+directories.
+
+e.g.
+    cd /home/esguerra
+    mkdir scr
+    ls -l /home/esguerra/scr
+
+Otherwise gamess jobs will not run.
+
+With this directory created you can now run gamess jobs.
+You can copy one of the examples to your folder and try it out:
+
+    cp /home/apps/gamess/tests/standard/exam01.inp .
+    /home/apps/gamess/rungms exam01.inp >& exam01.log &
+
+It should take no longer than a couple of seconds.
+
+For analysis of gamess results a recommended molecular viewer is MOLDEN.
+
+Also, remember to check your ~/scr and /state/partition1/$USER folders after
+succesful, and specially failed runs. The SCRATCH files should be automatically
+removed on a successful run of GAMESS, but such case is not granted in failed
+runs.
+
+
+
+

@@ -1,0 +1,25 @@
+=========================================
+=            Running perlbrew at csb           =
+=========================================
+
+Perlbrew is a handy program for managing your perl installations, and does not require elevated permissions.
+
+
+To use perlbrew you will have to include the path to perlbrew
+in your environment variables.
+
+If your shell is bash:
+
+export PERLBREW_ROOT=home/apps/perl5/perlbrew
+source ${PERLBREW_ROOT}/etc/bashrc
+
+If your shell is csh or tcsh:
+
+setenv PERLBREW_ROOT /home/apps/perl5/perlbrew
+setenv PATH $PATH\:/$rcran/bin
+
+For a list of commands with perlbrew, run the executable with --help or -h.
+
+
+
+

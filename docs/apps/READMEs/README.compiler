@@ -1,0 +1,56 @@
+=========================================
+= For users of csb.                     =
+=========================================
+
+The following compilers are available
+
+gcc      - GNU C version 4.4.7 
+g++      - GNU C++ version 4.4.7
+gfortran - GNU fortran version 4.4.7
+gdb      - GNU debugger
+All of the above are in the default path.
+
+In /home/apps/bin you can find
+gcc      - GNU C version 4.8.2
+g++      - GNU C++ version 4.8.2
+gfortran - GNU fortran version 4.8.2
+
+In /home/apps/gcc/5.3.0 you can find
+gcc      - GNU C version 5.3.0
+g++      - GNU C++ version 5.3.0
+gfortran - GNU gfortran version 5.3.0
+gcj      - GNU java
+lto      - GNU Link Time Optimization
+objc     - GNU Objective-C
+
+           To load it use:
+	   module load gcc/5.3.0
+
+In /home/apps/gcc/6.2.0 you can find
+gcc      - GNU C version 6.2.0
+g++      - GNU C++ version 6.2.0
+gfortran - GNU gfortran version 6.2.0
+gcj      - GNU java
+lto      - GNU Link Time Optimization
+objc     - GNU Objective-C
+
+           To load it use:
+	   module load gcc/6.2.0
+
+	   
+	   
+ifort    - Intel Fortran. Run 
+           source /home/apps/intel/bin/ifortvars.csh (or ifortvars.sh) intel64
+           to use this. 
+
+Portland compilers are available now as
+pgf95	- Fortran 95
+pgf90	- Fortran 90
+pgf77	- Fortran 77
+pgcc	- C
+pgCC	- C++
+pgc++	- C++
+	  source /home/apps/pgi/linux86-64/13.7/pgi.csh (or pgi.sh)
+	  to use any of these programs.
+
+

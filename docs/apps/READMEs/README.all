@@ -1,0 +1,25 @@
+[H[2J================================================================================
+       [01;37m Welcome [01;34m [01;37m to [01;34m csb.bmc.uu.se                       [0m              
+================================================================================
+
+[01;31mNOTE: DO NOT [0m run long jobs in the headnode.
+[01;31mNOTE: DO NOT [0m run parallel jobs in the headnode.
+
+They will be killed by administrators without notice.
+Long jobs and parallel jobs should be run using the SLURM queuing system.
+
+Read /home/apps/README.sbatch and let one of the csb administrators know if you 
+have issues sending jobs to the queue.                                          
+                                                                                
+To use available programs please use the module system as in, for
+example, SNIC centers. Please try:
+                                                                                
+[01;31m  module avail                                                    [0m              
+                                                                                
+=====> THE CLUSTER WILL SOON BE UPGRADED.
+=====> LOGIN USING PASSWORDS WILL BE DISABLED.
+=====> MAKE SURE YOU HAVE A WORKING SSH-KEY LOGIN.
+
+
+================================================================================
+                                                                                

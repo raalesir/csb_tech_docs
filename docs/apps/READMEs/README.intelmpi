@@ -1,0 +1,32 @@
+Loading Intel® MPI Library Runtime Environment for Linux
+================================
+### Loading Intel Fortran Compiler:
+
+For bash use:
+
+source /home/apps/intel/composer_xe_2013.5.192/bin/ifortvars.sh intel64
+
+
+### Loading Intel's MPI Library:
+
+For csh or tcsh use:
+
+source /home/apps/intel/impi/5.0.0.028/intel64/bin/mpivars.csh
+
+For sh, bash, or zsh use:
+
+source /home/apps/intel/impi/5.0.0.028/intel64/bin/mpivars.sh
+
+
+### Installed resources:
+
+Binaries folder: home/apps/intel/impi/5.0.0.028/intel64/bin
+
+[Documentation](file:///home/apps/intel/impi/5.0.0.028/Doc_Index.html)
+
+### Online Resources:
+
+[Product Web Site](http://software.intel.com/en-us/intel-mpi-library)
+
+
+

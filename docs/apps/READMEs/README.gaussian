@@ -1,0 +1,20 @@
+=========================================
+=   For users of Gaussian on csb.       =
+=========================================
+
+In your script (csh only) add the following line:
+
+For Gaussian03:
+source /home/apps/g03/g03.csh
+
+For Gaussian09:
+source /home/apps/g09/g09.csh
+
+You can use a max of 4 cores (if a machine is available) using
+the shared memory facility of Gaussian. Linda support is not available.
+Use %nprocshared=4 in your .com file.
+
+Make sure that the memory you specify in your Gaussian job is no more
+than 75% of what you specify in the job file.
+
+Check /home/apps/examples for working input.

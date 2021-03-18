@@ -1,0 +1,28 @@
+======================================================
+= For users of the compute and storage nodes at csb. =
+======================================================
+
+There are presently 26 compute nodes plus the server. 
+Five compute nodes are reserved for special
+purposes, leaving 21 nodes for the general public.
+
+Funding of compute nodes is as follows
+Bengt Persson 8
+David van der Spoel 3+server
+Johan Aqvist 3
+ICM/BBB   12
+
+Storage is paid for by
+David van der Spoel
+Johan Aqvist
+Lynn Kamerlin
+ICM/BB
+
+Maintenance is performed by
+David van der Spoel
+Mauricio Esguerra (Aqvist group)
+
+Priority is related to contribution. 
+All groups have the same priority, except Persson, Aqvist and
+Van der Spoel (double).
+

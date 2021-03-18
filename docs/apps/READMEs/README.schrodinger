@@ -1,0 +1,71 @@
+=========================================
+=  For users of SCHRODINGER on csb.     =
+=========================================
+
+Current License:  August 31, 2017 -- XXXX
+Previous License: October 1, 2016 to September 30, 2017
+
+
+You  can either  run  jobs  locally (in  the  cluster)  by setting  up
+environment variables  or you can send  jobs from your desktop  if you
+are  in  the local  network  and  have  an  installation in  your  own
+desktop/laptop.
+
+Being in the local network  means that csb.bmc.uu.se should resolve to
+your  local  network   IP  127.0.0.1  instead  of   the  external  IP
+130.238.41.206
+
+So, if you are running Maestro in your laptop/desktop you will need
+to modify your /etc/hosts file and add the following line at the
+end of the hosts file:
+
+127.0.0.1    csb.bmc.uu.se
+
+NOTE NOTE REMEMBER: Make sure to  comment out this additional line when you
+want to connect to csb from home.
+
+You can test the DNS name to IP address mapping by using:
+
+    ping csb.bmc.uu.se
+
+Now you have to open a tunnel in order to reach the ports in which the
+license server is running. You do this with:
+
+    ssh -f -L 53000:csb.bmc.uu.se:53000 -L 27008:csb.bmc.uu.se:27008 YOURUSERNAMEHERE@130.238.41.206 -N
+
+Make sure to use your-username-here in the previous command.
+
+Also, once you're done using maestro remember to kill the
+process associated with the open tunnel.
+You can do this with:
+
+    ps -ax | grep 53000:csb | awk '{print $1}' | xargs kill
+
+
+Once you have installed schrodinger20XX-X in your desktop make sure to
+remove old  licenses, in  mac's they  will be  in /Library/Application
+Support/Schrodinger.   It's    also   recommended   to    remove   old
+configurations present in your local .schrodinger folder. We recommend
+doing rm -rf ~/.schrodinger
+
+Once old licenses are  removed then you will have to  drag and drop the
+new  license to  the  window that  opens when  your  run the  "Install
+License" GUI window. In MAC's you open the Install License.app
+
+If you need to send jobs to the queue you will need to modify your
+local schrodinger.hosts file at /opt/schrodinger/suites2017
+
+Add the following to the end of your local schrodinger.hosts file:
+
+
+Name: 2hour
+Host: csb.bmc.uu.se
+schrodinger: /home/apps/schrodinger2017
+Queue: SLURM2.1
+Qargs: --partition=CLUSTER --ntasks=%NPROC% #-d singleton
+processors: 16
+tmpdir:      /usr/tmp
+
+
+AND make sure that when you send a job you select the 2hour queue.
+

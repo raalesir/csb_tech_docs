@@ -1,0 +1,19 @@
+=========================================
+=   For users of MOPAC2016 at csb.      =
+=========================================
+
+In your script (bash only) add the following line:
+
+source /home/apps/mopac/loadmopac.sh
+
+And then you can call mopac with the example at /home/examples/mopac
+
+mopac formaldehyde.mop >& formaldehyde.log &
+
+
+
+
+
+
+
+

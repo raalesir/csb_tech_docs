@@ -1,0 +1,25 @@
+========================
+BOSS 4.9
+=======================
+
+To use BOSS 4.9 you can just load the module with
+
+    module load boss/4.9
+
+BOSS stands for Biochemical and Organic Simulation System.
+It's the molecular modeling program coming from Bill Jorgensen's lab.
+at Yale.
+
+The following description copied verbatim from wikipedia.org
+
+Biochemical and Organic Simulation  System (BOSS) is a general-purpose
+molecular   modeling  program   that   performs  molecular   mechanics
+calculations,    Metropolis   Monte   Carlo    statistical   mechanics
+simulations, and semiempirical Austin Model 1 (AM1), PM3, and PDDG/PM3
+quantum    mechanics   calculations.  The    molecular   mechanics
+calculations  cover  energy minimizations,  normal  mode analysis  and
+conformational  searching  with the  Optimized  Potentials for  Liquid
+Simulations (OPLS)  force fields. BOSS  is developed by  Prof. William
+L.  Jorgensen  at Yale  University,  and  distributed commercially  by
+Cemcomco, LLC and Schrödinger, Inc.
+

@@ -1,0 +1,19 @@
+# OpenMM 7.2.2
+
+You can test openmm with:
+
+    module load miniconda/3
+    mkdir ~/testopenmm
+	cp /home/apps/miniconda/3/share/openmm/examples/input.pdb ~/testopenmm/
+    cp /home/apps/miniconda/3/share/openmm/examples/simulatePdb.py ~/testopenmm/
+    cd ~/testopenmm
+    echo -e '#!/bin/bash \npython simulatePdb.py' | sbatch -c 16
+	
+	
+Notice that the last line sends the test to the cluster queue.
+To check on your test-job use:
+
+    squeue 
+	
+
+

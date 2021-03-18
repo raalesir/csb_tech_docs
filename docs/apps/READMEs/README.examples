@@ -1,0 +1,15 @@
+=========================================
+= For users of csb.                     =
+=========================================
+
+The following examples are available:
+
+/home/apps/examples/adf            - Amsterdam Density Functional package
+/home/apps/examples/g03            - Gaussian03
+/home/apps/examples/g09            - Gaussian09
+/home/apps/examples/gromacs-4.6.5  - GROMACS 4.6.5
+/home/apps/examples/modeller-9.16  - Modeller 9.16
+/home/apps/examples/q-5.06         - Q v. 5.06
+
+cp -r the whole directory to your own work directory and check its contents.
+Enjoy!

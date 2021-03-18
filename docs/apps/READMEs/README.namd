@@ -1,0 +1,16 @@
+=========================================
+=    For users of NAMD    on csb.       =
+=========================================
+
+In your script add one of the following lines:
+(these are increasing version numbers).
+module load namd/2.12
+module load namd/2.XX
+
+Note that if you include more than one, the last one will override the others.
+
+The usual way to invoke namd is:
+
+charmrun namd2 +p8 molecule.conf > molecule.log
+
+

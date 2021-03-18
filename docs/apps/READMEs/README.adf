@@ -1,0 +1,22 @@
+* Only David's group can use the present license. * 
+
+Running the Amsterdam Density Functional package.
+
+For bash:
+. /home/apps/adf/adfrc.sh
+
+For tcsh:
+source /home/apps/adf/adfrc.csh
+
+In your run scripts you may want to set the scratch directory to something
+like (where project is a different name for different calculations):
+
+setenv SCM_TMPDIR /state/partition1/${USER}/project
+mkdir -p $SCM_TMPDIR
+adf commands
+rm -rf $SCM_TMPDIR
+
+To run the graphical user interface:
+adfjobs
+
+

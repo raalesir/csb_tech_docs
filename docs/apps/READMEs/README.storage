@@ -1,0 +1,16 @@
+=========================================
+= For users of csb.                     =
+=========================================
+
+The following storage servers are available:
+
+limosa     - 33Tb - Van der Spoel, Flores and Tanase groups
+vanellus   - 33Tb - backup of limosa
+godzilla   - 19Tb - Aqvist group
+rodan      - 25Tb - backup of godzilla
+thor       - 33Tb - Kamerlin group
+tintoretto - 11Tb - gpcr-modsim.org
+titian     - 11Tb - gpcr-modsim.org backup
+repin      - Tape server for 800Gb DLT-IV tapes. 
+             Access in the cluster room for now.
+

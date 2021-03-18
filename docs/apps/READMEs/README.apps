@@ -1,0 +1,21 @@
+==========================================================================
+=    For users of programming libraries and small programs on csb.       =
+==========================================================================
+
+In your .cshrc add the following line:
+
+source /home/apps/bin/apps.csh
+
+or, if you are using bash in your .bash_profile use
+
+. /home/apps/bin/apps.sh
+
+in order to run one of the following programs:
+
+python2.7, cmake, openbabel (obabel), xmgrace, minicom, 
+molden, autodock4, autogrid4, pymol, gromacs, vina
+
+in order to develop code using one of the following libraries:
+
+fftw3, boost, cln, gmp, mpfr, mpc.
+

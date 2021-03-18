@@ -1,0 +1,19 @@
+=========================================
+=    For users of GROMACS on csb.       =
+=========================================
+
+In your script add one of the following lines:
+(these are increasing version numbers).
+module load gromacs/4.6.7
+module load gromacs/5.0.7
+module load gromacs/5.1.4
+module load gromacs/2016
+
+Note that if you include more than one, the last one will override the others.
+
+Note for GROMACS 5.0 and higher: From this version the g_XXX commands 
+are replaced by one executable called gmx. Try typing
+gmx help
+to understand it's usage. Most stuff remains the same, 
+e.g. g_rdf is now gmx rdf.
+There is also a double precision version called gmx_d.

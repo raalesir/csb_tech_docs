@@ -1,0 +1,55 @@
+=========================================
+=    For users of PYTHON  on csb.       =
+=========================================
+
+There are two ways to load python.
+Either by using the packages supplied directly by the **python foundation**
+with:
+
+# For Python 2.7.6  
+
+    module load python/2.7.6
+
+And invoke it using:  
+
+    python
+
+To consult the installed python 2.7.6 packages  and their 
+version use:
+
+    pip freeze
+
+# For Python 2.7.13  
+
+    module load python/2.7.13
+	
+
+# For Python 3.6.2   
+
+    module load python/2.7.13
+
+
+
+Or by using the bundled **miniconda** packages using:  
+
+
+# For Python 2   
+
+    module load miniconda/2
+	
+	
+# For Python 3
+
+    module load miniconda/3
+	
+
+
+You can always make double sure which python version is in use with:
+
+    which python
+	python --version
+	
+
+Enjoy pythonizing,
+
+admin

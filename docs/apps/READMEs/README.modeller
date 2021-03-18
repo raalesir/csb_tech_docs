@@ -1,0 +1,47 @@
+=========================================
+=     For modeller users at csb         =
+=========================================
+
+# Modeller 9.20
+You can now run modeller 9.20 going via python 3 using miniconda.
+Just load minconda/3
+
+    module load miniconda/3
+
+You can test it goes through with:
+
+    python
+      from modeller import *
+
+Remember not to run a modeller job in the head node, but send it to 
+the cluster queue using SLURM.
+
+An example script to send a job to the SLURM queue follows:
+
+#!/bin/bash
+echo "#!/bin/bash
+module load miniconda/3
+time python model.py " > tmp.sh
+sbatch -n 8 -t 12:00:00 -J modgpcr tmp.sh
+rm tmp.sh
+
+
+
+# OLD VERSIONS
+You can still use the old versions using the following rules.
+
+# For modeller 9.13
+
+In your script (bash only) add the following lines:
+
+export modeller=/home/apps/modeller-9.13/bin
+export PATH=$modeller:$PATH
+
+This will add the path to the main modeller executable called mod9.13
+which is located at the bin folder of the modeller installation.
+
+Now, there is also modeller 9.16 which you can also load to your path
+as in the example given above but using the path to modeller-9.16
+
+
+

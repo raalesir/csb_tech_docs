@@ -1,0 +1,19 @@
+================================================================================
+=      For users of programming libraries and small programs on csb.           =
+================================================================================
+
+A compilations of small programs and static libraries.
+On ocassion some programs might be dependant on the GNU Compiler Collection(GCC)
+libraries, so, it's recommended to load those too.
+
+Just use:
+
+    module load gcc/6.2.0
+    module load utilities/1.0.0
+
+in order to run one of the following programs:
+
+ffmpeg, autodock4, autogrid4, vina, vina_split
+
+
+

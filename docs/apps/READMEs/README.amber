@@ -1,0 +1,13 @@
+========================
+AMBER 16
+=======================
+
+To use Amber16 or AmberTools16 please write
+
+export AMBERHOME=/home/apps/amber16
+. $AMBERHOME/amber.sh
+
+or
+
+setenv AMBERHOME /home/apps/amber16
+source $AMBERHOME/amber.csh
