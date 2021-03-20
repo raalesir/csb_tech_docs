@@ -53,11 +53,11 @@ inps=$(ls -1 *inp | sed 's/.inp//g')
 for inp in ${inps[@]}
 do
     srun -n $SLURM_NTASKS $QDYNP $inp.inp > $inp.out
-    rsync -ah $TMPDIR/ $jobdir/ --exclude="*tmp"
+    rsync -ah $TMPDIR/ $SLURM_SUBMIT_DIR/ --exclude="*tmp"
 done
 
 # copy back one last time
-rsync -ah $TMPDIR/ $jobdir/ --exclude="*tmp"
+rsync -ah $TMPDIR/ $SLURM_SUBMIT_DIR/ --exclude="*tmp"
 
 # cleanup
 rm -rf $TMPDIR
