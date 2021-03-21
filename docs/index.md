@@ -5,8 +5,14 @@ Please check out the menu on the left for instructions on everything from establ
 
 # News
 
-## Wednesday, 16 Mar 2021
-Trying out the new website.
+## Sunday, 21 Mar 2021
+
+- Apps were moved back to the network file system (/home/apps).
+  This is required for smooth updates of the headnode in the future.
+  If you use hardcoded paths to app binaries (not recommended), change
+  from '/opt/homes/apps/apps/...' to '/home/apps/apps/...'.
+
+- Applied important updates to headnode and compute nodes (required reboot).
 
 ## Thursday, 5 Mar 2021
 If you see this message then the transition to the new CSB headnode went smoothly
