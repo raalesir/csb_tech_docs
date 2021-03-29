@@ -11,5 +11,6 @@ nav:
     - 'GROMACS': 'apps/gromacs.md'
     - 'Schrodinger': 'apps/schrodinger.md'
     - 'ORCA': 'apps/orca.md'
+    - 'NAMD': 'apps/namd.md'
     - 'Q': 'apps/q.md'
 theme: readthedocs

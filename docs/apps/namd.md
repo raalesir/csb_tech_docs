@@ -3,9 +3,9 @@
 NAMD is a molecular dynamics package designed to scale efficiently to large biomolecular systems. The popular molecular visualisation package VMD can be used for simulation setup trough plugi-ins like QwikMD.
 
 Some relevant links:
-    - NAMD: https://www.ks.uiuc.edu/Research/namd/
-    - VMD: https://www.ks.uiuc.edu/Research/vmd/
-    - QwikMD: http://www.ks.uiuc.edu/Research/qwikmd/
+- Website: [https://www.ks.uiuc.edu/Research/namd/](https://www.ks.uiuc.edu/Research/namd/)
+- VMD website: [https://www.ks.uiuc.edu/Research/vmd/](https://www.ks.uiuc.edu/Research/vmd/)
+- QwikMD website: [http://www.ks.uiuc.edu/Research/qwikmd/](http://www.ks.uiuc.edu/Research/qwikmd/)
 
 To find the available modules simply run:
 
