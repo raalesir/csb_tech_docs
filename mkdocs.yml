@@ -7,6 +7,7 @@ nav:
     - 'Connecting to CSB': 'users/connecting.md'
     - 'Submitting jobs': 'users/slurm.md'
   - 'Software':
+    - 'Alphafold 2': 'apps/alphafold2.md'
     - 'Gaussian': 'apps/gaussian.md'
     - 'GROMACS': 'apps/gromacs.md'
     - 'Schrodinger': 'apps/schrodinger.md'
