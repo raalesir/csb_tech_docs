@@ -15,7 +15,7 @@ nav:
     - 'NAMD': 'apps/namd.md'
     - 'Q': 'apps/q.md'
   - 'Deployment docs':
-    - 'SCB Storage backup' : 'set_raid6.md'
+    - 'SCB Storage backup' : 'scb_backup.md'
     - 'Adding users': 'add_user.md'
     - 'SCB internals': 'csb_info.md'
 theme: readthedocs
