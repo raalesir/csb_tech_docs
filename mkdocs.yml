@@ -14,4 +14,7 @@ nav:
     - 'ORCA': 'apps/orca.md'
     - 'NAMD': 'apps/namd.md'
     - 'Q': 'apps/q.md'
+  - 'Deployment docs':
+    - 'Storage' : 'set_raid6.md'
+    - 'Adding users': 'add_user.md' 
 theme: readthedocs
