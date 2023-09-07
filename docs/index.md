@@ -5,6 +5,11 @@ Please check out the menu on the left for instructions on everything from establ
 
 # News
 
+## September 2023
+
+The `terra` is 80 percent full, making pretty big data reshaping and data storing 
+habits change inevitable. More is coming soon.
+
 ## Sunday, 21 Mar 2021
 
 - Apps were moved back to the network file system (/home/apps).
