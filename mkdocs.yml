@@ -1,19 +1,19 @@
 site_name: csb.bmc.uu.se
 nav:
   - 'About': 'about.md'
-  - 'Support': 'support.md'
-  - 'User guides':
-    - 'Getting access': 'users/access.md'
-    - 'Connecting to CSB': 'users/connecting.md'
-    - 'Submitting jobs': 'users/slurm.md'
-  - 'Software':
-    - 'Alphafold 2': 'apps/alphafold2.md'
-    - 'Gaussian': 'apps/gaussian.md'
-    - 'GROMACS': 'apps/gromacs.md'
-    - 'Schrodinger': 'apps/schrodinger.md'
-    - 'ORCA': 'apps/orca.md'
-    - 'NAMD': 'apps/namd.md'
-    - 'Q': 'apps/q.md'
+  # - 'Support': 'support.md'
+#  - 'User guides':
+#    - 'Getting access': 'users/access.md'
+#    - 'Connecting to CSB': 'users/connecting.md'
+#    - 'Submitting jobs': 'users/slurm.md'
+#  - 'Software':
+#    - 'Alphafold 2': 'apps/alphafold2.md'
+#    - 'Gaussian': 'apps/gaussian.md'
+#    - 'GROMACS': 'apps/gromacs.md'
+#    - 'Schrodinger': 'apps/schrodinger.md'
+#    - 'ORCA': 'apps/orca.md'
+#    - 'NAMD': 'apps/namd.md'
+#    - 'Q': 'apps/q.md'
   - 'Deployment docs':
     - 'SCB Storage backup' : 'scb_backup.md'
     - 'Adding users': 'add_user.md'
