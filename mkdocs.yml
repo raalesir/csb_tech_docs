@@ -18,4 +18,9 @@ nav:
     - 'SCB Storage backup' : 'scb_backup.md'
     - 'Adding users': 'add_user.md'
     - 'SCB internals': 'csb_info.md'
+
+  - "Operation docs":
+    - 'Log of works': 'log_of_works'
+#    - 'ff': []
+
 theme: readthedocs
